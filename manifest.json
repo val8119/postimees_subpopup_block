@@ -1,0 +1,13 @@
+{
+  "name": "Postimees paketi sõnumi blokeerija",
+  "version": "1.0",
+  "description": "Ära suru koguaeg seda digipaketti peale.",
+  "permissions": ["tabs", "*://*.postimees.ee/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.postimees.ee/*"],
+      "js": ["delete2.js"]
+    }
+  ],
+  "manifest_version": 2
+}
