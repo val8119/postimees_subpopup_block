@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.postimees.ee/*"],
-      "js": ["delete2.js"]
+      "js": ["delete.js"]
     }
   ],
   "manifest_version": 2
